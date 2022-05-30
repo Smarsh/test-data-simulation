@@ -38,7 +38,7 @@ numdata | inputfile | labelcase | augment | custom | reply | thread
 | --cc_recipients  | defines the cc_recipeint(s) of the email        | `--cc_recipients cc_one@test.com cc_two@test.com`
 | --bcc_recipients | defines the bcc_recipeint(s) of the email       | `--bcc_recipients bcc_one@test.com bcc_two@test.com`
 | --body           | defines the body of the email                   | `--body="Lorem ipsum dolor sit amet"`
-| --attachments    | user inputted attachements for the email        | `--attachments`
+| --attachments    | user inputted attachements for the email        | `--attachments="data/sample1;data/sample2"`
 | --lang           | defines the language in the header of the email | `--lang="en"`
 | --charset        | defines the charset in the header of the email  | `--charset="utf-8"`
 | --numdata        | specifies how many .eml files to create         | `--numdata=5`
