@@ -7,6 +7,9 @@ This repository contains two programs for test data simulation given as a data s
 `generatetestdata.py` focuses on chat/text generation and augmentation. Data is pulled from `data/` depending on the Smarsh Scenario chosen, or from a user inputted file.
 
 ### Suggested Usage of `generatetestdata.py`
+
+`python3 generatetextdata.py [arguments]`
+
 #### Available Parameters:
 ```
 scenario | numdata | inputfile | custom | labelcase | labeled | augment | randsamp
@@ -27,6 +30,9 @@ scenario | numdata | inputfile | custom | labelcase | labeled | augment | randsa
 `generateemaildata.py` focuses on email generation, manipulation, and augmentation. Data is pulled from `data/` is a Smarsh Scenario is specified as an input file, a user inputted file, or user specified arguments.
 
 ### Suggested Usage of `generateemaildata.py`
+
+`python3 generateemaildata.py [arguments]`
+
 #### Available Parameters:
 ```
 subject | sender | recipients | cc_recipients | bcc_recipients | body | attachments | lang | charset
