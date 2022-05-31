@@ -2,6 +2,8 @@
 
 This repository contains two programs for test data simulation given as a data science project. These two programs can be used independently and were made to expedite test data generation and manipulation for product fail-state testing.
 
+---
+
 `generatetestdata.py` focuses on chat/text generation and augmentation. Data is pulled from `data/` depending on the Smarsh Scenario chosen, or from a user inputted file.
 
 ### Suggested Usage of `generatetestdata.py`
@@ -19,6 +21,8 @@ scenario | numdata | inputfile | custom | labelcase | labeled | augment | randsa
 | -l --labeled  | will output the respective label alongside the ouputted text      |
 | -a --augment  | will augment the text output with the provided augmenter          |
 | -r --randsamp | will pull a random sample of text from either an existing scenario or user provided file|
+
+---
 
 `generateemaildata.py` focuses on email generation, manipulation, and augmentation. Data is pulled from `data/` is a Smarsh Scenario is specified as an input file, a user inputted file, or user specified arguments.
 
